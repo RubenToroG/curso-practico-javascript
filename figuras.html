@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geométricas | Curso básico de JavaScript</title>
+    <link rel="stylesheet" href="./components/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__img" src="./icons/logo.png" alt="Logo">
+        <div class="header__title">
+            <h1>Figuras Geométricas</h1>
+            <p>Este es el primer taller del curso básico de JavaScript</p>
+        </div>
+    </header>
+
+    <section class="main">
+        <section class="main__cuadrado">
+            <h2>Cuadrado</h2>
+            <img class="main__cuadrado--img" src="./icons/cuadrado.png" alt="">
+            <form class="main__cuadrado--form">
+                <label for="InputCuadrado">
+                    Escribe cuánto mide cada lado de tu cuadrado:
+                </label>
+                <input class="input" id="InputCuadrado" type="number" placeholder="Uno de los lados">
+                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular perímetro</button>
+                <button type="button" onclick="calcularAreaCuadrado()">Calcular área</button>
+                <textarea class="result" id="resultCuadrado" cols="10" rows="1"></textarea>
+            </form>
+        </section>
+
+
+        <section class="main__triangulo">
+            <h2>Triangulo</h2>
+            <form class="main__triangulo--form">
+                <label for="InputTriangulo">
+                    Escribe cuánto cada lado del triangulo:
+                </label>
+                <input class="input" id="InputTrianguloLado1" type="number" placeholder="Lado 1">
+                <input class="input" id="InputTrianguloLado2" type="number" placeholder="Lado 2">
+                <input class="input" id="InputTrianguloLado3" type="number" placeholder="Lado 3">
+                <input class="input" id="InputTrianguloBase" type="number" placeholder="Base">
+                <input class="input" id="InputTrianguloAltura" type="number" placeholder="Altura">
+                <button type="button" onclick="calcularPerimetroTriangulo()">Calcular perímetro</button>
+                <button type="button" onclick="calcularAreaTriangulo()">Calcular área</button>
+                <textarea class="result" name="" id="resultTriangulo" cols="10" rows="1"></textarea>
+            </form>
+        </section>
+
+        <section class="main__circulo">
+            <h2>Circulo</h2>
+            <form class="main__circulo--form">
+                <label for="InputCirculo">
+                    Radio del circulo:
+                </label>
+                <input class="input" id="InputCirculo" type="number" placeholder="Radio">
+                <button type="button" onclick="calcularPerimetroCirculo()">Calcular perímetro</button>
+                <button type="button" onclick="calcularAreaCirculo()">Calcular área</button>
+                <textarea class="result" name="" id="resultCirculo" cols="10" rows="1"></textarea>
+            </form>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <p>Curso Practico de JavaScript</p>
+        <a href="#">Ruben Toro</a>
+
+    </footer>
+
+    <script src="./figuras.js"></script>
+</body>
+
+</html>

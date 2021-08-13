@@ -1,0 +1,184 @@
+body {
+  background-color: white;
+  margin: 0%;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.header__img {
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.main {
+  margin-left: 40px;
+  margin-right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main__cuadrado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #32cd4c;
+  border-radius: 30px;
+  color: white;
+  min-height: 400px;
+  min-width: 400px;
+  margin: 0px 10px;
+}
+
+.main__cuadrado--img {
+  width: 50px;
+}
+
+.main__cuadrado--form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.result {
+  outline: none;
+  background-color: transparent;
+  margin-top: 20px;
+  border: none;
+  font-weight: bold;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__triangulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #32a1cd;
+  border-radius: 30px;
+  color: white;
+  min-height: 400px;
+  min-width: 400px;
+  margin: 0px 10px;
+}
+
+.main__triangulo--form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__circulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #cd9c32;
+  border-radius: 30px;
+  color: white;
+  min-height: 400px;
+  min-width: 400px;
+  margin: 0px 10px;
+}
+
+.main__circulo--form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input {
+  background-color: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  outline: none;
+  border-top: 0px;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  padding: 0px 20px;
+}
+
+.footer {
+  background-color: #7ea9b6;
+  border-radius: 30px;
+  padding: 0px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin-top: 30px;
+}
+
+.footer a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  padding-left: 30px;
+}
+/*# sourceMappingURL=styles.css.map */

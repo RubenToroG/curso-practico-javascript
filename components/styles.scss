@@ -1,0 +1,110 @@
+body  {
+    background-color: white;
+    margin: 0%;
+}
+.header {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+.header__img {
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.main {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main__cuadrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(50, 205, 76);
+    border-radius: 30px;
+    color: white;
+    min-height: 400px;
+    min-width: 400px;
+    margin: 0px 10px;
+}
+.main__cuadrado--img {
+    width: 50px;
+}
+.main__cuadrado--form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result {
+    outline: none;
+    background-color: transparent;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+    align-items: center;
+}
+.main__triangulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(50, 161, 205);
+    border-radius: 30px;
+    color: white;
+    min-height: 400px;
+    min-width: 400px;
+    margin: 0px 10px;
+}
+.main__triangulo--form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__circulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(205, 156, 50);
+    border-radius: 30px;
+    color: white;
+    min-height: 400px;
+    min-width: 400px;
+    margin: 0px 10px;
+}
+.main__circulo--form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input {
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    border-top: 0px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding: 0px 20px;
+}
+.footer {
+    background-color: rgb(126, 169, 182);
+    border-radius: 30px;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+.footer a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 30px;
+}
