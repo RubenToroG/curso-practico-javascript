@@ -25,6 +25,12 @@ function perimetroCirculo(radio) {
 function areaCirculo(radio) {
     return radio * radio * Math.PI
 }
+//función Isosceles
+function alturaIsosceles(lado1, base) {
+    return Math.sqrt((lado1)**2 - ((base)**2)/4)
+}
+
+
 
 //Aquí interactuamos con el HTML
 
@@ -81,4 +87,18 @@ function calcularPerimetroCirculo() {
         parseFloat(radio.value)
         )
     document.getElementById("resultCirculo").value = perimetro
+}
+
+//isosceles
+function calcularIsosceles() {
+    const lado1 = document.getElementById("InputIsosceles1")
+    const lado2 = document.getElementById("InputIsosceles2")
+    const base = document.getElementById("InputIsosceles3")
+    if (parseFloat(lado1.value) == parseFloat(lado2.value)) {
+        let altura = alturaIsosceles(parseFloat(lado1.value), parseFloat(base.value))
+        document.getElementById("resultIsosceles").value = altura
+    }else {
+        var result = "No es Isosceles" 
+        document.getElementById("resultIsosceles").value = result
+    }
 }

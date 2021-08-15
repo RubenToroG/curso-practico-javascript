@@ -99,7 +99,7 @@ body {
   background-color: #32a1cd;
   border-radius: 30px;
   color: white;
-  min-height: 400px;
+  min-height: 450px;
   min-width: 400px;
   margin: 0px 10px;
 }
@@ -156,9 +156,27 @@ body {
   border-radius: 10px;
   outline: none;
   border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
   text-decoration: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #fcfcfc;
   padding: 0px 20px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+:-ms-input-placeholder {
+  color: white;
+}
+
+::-ms-input-placeholder {
+  color: white;
+}
+
+::placeholder {
+  color: white;
 }
 
 .footer {
@@ -180,5 +198,16 @@ body {
   cursor: pointer;
   text-decoration: none;
   padding-left: 30px;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  height: 40px;
+  margin: 5px 0px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */

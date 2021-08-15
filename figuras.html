@@ -27,8 +27,8 @@
                     Escribe cuánto mide cada lado de tu cuadrado:
                 </label>
                 <input class="input" id="InputCuadrado" type="number" placeholder="Uno de los lados">
-                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular perímetro</button>
-                <button type="button" onclick="calcularAreaCuadrado()">Calcular área</button>
+                <button class="button" type="button" onclick="calcularPerimetroCuadrado()">Calcular perímetro</button>
+                <button class="button" type="button" onclick="calcularAreaCuadrado()">Calcular área</button>
                 <textarea class="result" id="resultCuadrado" cols="10" rows="1"></textarea>
             </form>
         </section>
@@ -45,8 +45,8 @@
                 <input class="input" id="InputTrianguloLado3" type="number" placeholder="Lado 3">
                 <input class="input" id="InputTrianguloBase" type="number" placeholder="Base">
                 <input class="input" id="InputTrianguloAltura" type="number" placeholder="Altura">
-                <button type="button" onclick="calcularPerimetroTriangulo()">Calcular perímetro</button>
-                <button type="button" onclick="calcularAreaTriangulo()">Calcular área</button>
+                <button class="button" type="button" onclick="calcularPerimetroTriangulo()">Calcular perímetro</button>
+                <button class="button" type="button" onclick="calcularAreaTriangulo()">Calcular área</button>
                 <textarea class="result" name="" id="resultTriangulo" cols="10" rows="1"></textarea>
             </form>
         </section>
@@ -58,11 +58,26 @@
                     Radio del circulo:
                 </label>
                 <input class="input" id="InputCirculo" type="number" placeholder="Radio">
-                <button type="button" onclick="calcularPerimetroCirculo()">Calcular perímetro</button>
-                <button type="button" onclick="calcularAreaCirculo()">Calcular área</button>
+                <button class="button" type="button" onclick="calcularPerimetroCirculo()">Calcular perímetro</button>
+                <button class="button" type="button" onclick="calcularAreaCirculo()">Calcular área</button>
                 <textarea class="result" name="" id="resultCirculo" cols="10" rows="1"></textarea>
             </form>
         </section>
+    </section>
+    <section class="main__cuadrado">
+        <h2>Calcular altura Triangulo Isosceles</h2>
+        <img src="./icons/isosceles.png" alt="">
+        <p>Info: Triangulo Isosceles, tipo de triángulo con dos de los lados de igual longitud</p>
+        <form class="main__isosceles--form">
+            <label for="InputIsosceles1">
+
+            </label>
+            <input class="input" id="InputIsosceles1" type="number" placeholder="Lado 1">
+            <input class="input" id="InputIsosceles2" type="number" placeholder="Lado 2">
+            <input class="input" id="InputIsosceles3" type="number" placeholder="Base">
+            <button class="button" type="button" onclick="calcularIsosceles()">Calcular altura</button>
+            <textarea class="result" id="resultIsosceles" cols="10" rows="1"></textarea>
+        </form>
     </section>
 
     <footer class="footer">
